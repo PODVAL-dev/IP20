@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="top_menu">
+        <ul>
+            <li class="menu_item"><a class="menu_link" href="#">Подписка</a></li>
+            <li class="menu_item"><a class="menu_link" href="#">Карта вкусов</a></li>
+            <li class="menu_item"><a class="menu_link" href="#">Блог</a></li>
+            <li class="menu_item"><a class="menu_link" href="#">Поиск</a></li>
+            <li class="menu_item"><a class="menu_link" href="#">Доставка и оплата</a></li>
+            <li class="menu_item"><a class="menu_link" href="#">Моя корзина</a></li>
+        </ul>
+    </nav>
+
+    <header class="top_block_wrapper">
+        <div class="top_block_title_wrapper">
+            <h1 class="top_block_title">Лучшие сорта кофе<br>со всего мира</h1>
+        </div>
+    </header>
+
+    <main class="content_wrapper" id="goodsBlock">
+        <h2 class="content_title">Пробуйте новый вкус<br>каждый месяц</h2>
+
+        <p class="text">Устройте мировое турне по удивительному кофе с этой подпиской на 3 месяца. Каждый месяц вы получаете кофе и культуру из новой страны.</p>
+        <p class="text">Каждая партия включает:</p>
+
+        <ul class="content_list">
+            <li class="content_list_item">Самый лучший в мире кофе с одним происхождением</li>
+            <li class="content_list_item">Жареный и доставленный свежий</li>
+            <li class="content_list_item">Живописные открытки из каждой страны</li>
+            <li class="content_list_item">Визитные карточки с ароматом</li>
+            <li class="content_list_item">Бесплатная доставка</li>
+        </ul>
+
+        <a class="order_button" href="#">Получать раз в месяц</a>
+
+        <div class="order_section">
+            <div class="order_text_wrapper">
+                <h3 class="order_title">Экологическая чашка для кофе с собой Joco</h3>
+                <p class="text">Яркая палитра цветов и удобный размер не оставят равнодушной ни одну кофеманку. Подробнее о чашках в нашем блоге.</p>
+                <a class="button_light" href="#">Заказать</a>
+            </div>
+            <div class="order_picture_wrapper">
+                <img src="images/coffee.jpg" alt="Экологическая чашка для кофе Joco">
+            </div>
+        </div>
+    </main>
+
+    <section class="subscribe_section">
+        <div class="subscribe_wrapper">
+            <h2 class="subscribe_title">Подпишитесь и получайте новости первым</h2>
+            <p class="subscribe_text">В рассылке мы сообщаем о наших акциях и специальных предложениях. Вы можете получать эту информацию из первых рук.</p>
+
+            <form class="subscribe_form" action="#" method="post">
+                <input class="subscribe_input" type="text" name="name" placeholder="Введите ваше имя">
+                <input class="subscribe_input subscribe_input_email" type="email" name="email" placeholder="Введите email">
+
+                <div class="subscribe_select_wrapper">
+                    <select class="subscribe_select" name="frequency">
+                        <option value="week">Раз в неделю</option>
+                        <option value="month">Раз в месяц</option>
+                    </select>
+                </div>
+
+                <div class="subscribe_checkboxes">
+                    <label class="subscribe_checkbox">
+                        <input type="checkbox" name="sales" checked>
+                        <span class="checkbox_marker"></span>
+                        Акции и скидки
+                    </label>
+                    <label class="subscribe_checkbox">
+                        <input type="checkbox" name="blog">
+                        <span class="checkbox_marker"></span>
+                        Новые статьи в блоге
+                    </label>
+                </div>
+
+                <button class="subscribe_button" type="submit">Подписаться</button>
+            </form>
+        </div>
+    </section>
+
+    <nav class="bottom_menu">
+        <ul>
+            <li class="menu_item"><a class="menu_link" href="#">Подписка</a></li>
+            <li class="menu_item"><a class="menu_link" href="#">Карта вкусов</a></li>
+            <li class="menu_item"><a class="menu_link" href="#">Блог</a></li>
+            <li class="menu_item"><a class="menu_link" href="#">Поиск</a></li>
+            <li class="menu_item"><a class="menu_link" href="#">Доставка и оплата</a></li>
+            <li class="menu_item"><a class="menu_link" href="#">Моя корзина</a></li>
+        </ul>
+    </nav>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.top_menu {
+    text-align: center;
+}
+
+.menu_item {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu_link {
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #282b30;
+    display: inline-block;
+}
+
+.top_block_wrapper {
+    background: url('../images/top_block.jpg') center center;
+    background-size: cover;
+    padding: 175px 0;
+    text-align: center;
+}
+
+.top_block_title_wrapper {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    display: inline-block;
+}
+
+.top_block_title {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.content_wrapper {
+    padding: 60px 20px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.content_title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #282b30;
+    margin: 0 0 40px;
+}
+
+.text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 500;
+    margin: 0 0 25px;
+    color: #282b30;
+    max-width: 560px;
+}
+
+.content_list {
+    margin: 0 0 40px;
+    padding: 0 0 0 20px;
+}
+
+.content_list_item {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 500;
+    margin: 0 0 10px;
+    color: #282b30;
+    max-width: 380px;
+}
+
+.order_button {
+    background: #0fa8ea;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 52px;
+    font-weight: 700;
+    border-radius: 26px;
+    padding: 0 50px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button_light {
+    background: none;
+    color: #0fa8ea;
+    border: 1px solid #0fa8ea;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 52px;
+    font-weight: 700;
+    border-radius: 26px;
+    padding: 0 50px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.order_title {
+    max-width: 340px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #2b2b2b;
+    margin: 0 0 26px;
+}
+
+.order_text_wrapper {
+    display: inline-block;
+    width: 430px;
+    margin-right: 110px;
+    vertical-align: middle;
+}
+
+.order_picture_wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bottom_menu {
+    background: #e8e6eb;
+    text-align: center;
+}
+
+.subscribe_section {
+    background: #f2f2f2;
+    padding: 80px 20px;
+    margin-top: 100px;
+}
+
+.subscribe_wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.subscribe_title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #282b30;
+    margin: 0 0 20px;
+}
+
+.subscribe_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #282b30;
+    margin: 0 0 30px;
+}
+
+.subscribe_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.subscribe_input {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px 15px 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #282b30;
+    background: #fff;
+    box-sizing: border-box;
+    cursor: text;
+}
+
+.subscribe_input_email {
+    background: #fff;
+    background-size: 20px;
+}
+
+.subscribe_select_wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.subscribe_select {
+    width: 100%;
+    padding: 15px 50px 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #282b30;
+    background: #fff;
+    cursor: pointer;
+    appearance: none;
+    background-image: url('../images/down-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 20px;
+}
+
+.subscribe_checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+    max-width: 500px;
+    margin: 5px 0;
+}
+
+.subscribe_checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: 500;
+    color: #282b30;
+    user-select: none;
+    padding-left: 20px;
+}
+
+    .subscribe_checkbox input[type="checkbox"] {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+        pointer-events: none;
+    }
+
+.checkbox_marker {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    background: url('../images/checkbox-clean.png') no-repeat center / contain;
+}
+
+.subscribe_checkbox input[type="checkbox"]:checked + .checkbox_marker {
+    background-image: url('../images/checkbox-checked.png');
+}
+
+.subscribe_button {
+    width: 100%;
+    max-width: 500px;
+    background: #0fa8ea;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 52px;
+    font-weight: 700;
+    border-radius: 26px;
+    cursor: pointer;
+}
